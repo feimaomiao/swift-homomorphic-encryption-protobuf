@@ -19,4 +19,6 @@ package apple.swift_homomorphic_encryption.pnns.v1;
 enum DistanceMetric {
   // Cosine similarity.
   DISTANCE_METRIC_COSINE_SIMILARITY = 0;
+  // Dot product (inner product without normalization).
+  DISTANCE_METRIC_DOT_PRODUCT = 1;
 }
